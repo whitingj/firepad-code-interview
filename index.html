@@ -11,7 +11,7 @@
     <title>Firepad-code-interview by whitingj</title>
     <meta charset="utf-8" />
   <!-- Firebase -->
-  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
 
   <!-- CodeMirror and its JavaScript mode file -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
@@ -52,10 +52,13 @@
       console.log("init");
       //// Initialize Firebase.
       //// TODO: replace with your Firebase project configuration.
+      // Initialize Firebase
       var config = {
-        apiKey: "AIzaSyC_JdByNm-E1CAJUkePsr-YJZl7W77oL3g",
-        authDomain: "firepad-tests.firebaseapp.com",
-        databaseURL: "https://firepad-tests.firebaseio.com"
+        apiKey: "AIzaSyBJJeV_lHMDovOPXANmkhAXOlVhSGwZoZc",
+        authDomain: "firepad-interview.firebaseapp.com",
+        databaseURL: "https://firepad-interview.firebaseio.com",
+        storageBucket: "firepad-interview.appspot.com",
+        messagingSenderId: "385291219058"
       };
       firebase.initializeApp(config);
 
